@@ -7,5 +7,6 @@ function getSumma(a) {
     }
 }
 
-y = getSumma(5);
-console.log(y(2));
+numAplus = getSumma(5);
+
+console.log(numAplus(2));

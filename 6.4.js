@@ -25,7 +25,10 @@ if (n > 1000) {
             }
 
         }
-        console.log(res);
     }
-
+}
+if (res === true){
+    console.log(`"${n}" - простое число.`);
+}else {
+    console.log(`"${n}" - составное число.`);
 }
